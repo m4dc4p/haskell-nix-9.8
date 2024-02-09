@@ -1,4 +1,4 @@
-{-# OPTIONS_GHC -fplugin=Polysemy.Plugin #-}
+{-# OPTIONS_GHC -fplugin=Debug.Breakpoint #-}
 module MyLib (someFunc) where
 
 someFunc :: IO ()
